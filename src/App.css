@@ -4,10 +4,72 @@
   box-sizing: border-box;
   background-color: black;
   color: whitesmoke;
-
 }
+
 
 .App {
   text-align: center;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+header {
+  margin: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+}
+
+button {
+  margin: 1em;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 10em;
+}
+
+.a-leg {
+  border-right: 4px solid whitesmoke;
+  height: 107px;
+  position: absolute;
+  top: 49.5%;
+  right: 55.25%;
+}
+
+.b-leg {
+  border-bottom: 4px solid whitesmoke;
+  width: 186px;
+  position: absolute;
+  top: 60.5%;
+  right: 45.75%;
+
+}
+
+.c-leg {
+  border-top: 4px solid whitesmoke;
+  width: 215px;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 45%;
+  top: 55%;
+}
+
+#a-side {
+  position: absolute;
+  right: 57%;
+  top: 55%;
+}
+
+#b-side {
+  position: absolute;
+  top: 65%;
+  right: 46%;
 }
